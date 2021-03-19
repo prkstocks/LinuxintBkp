@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef820645-1fc4-4883-a096-8ae2314f0fca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="177" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AccurateProject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nk9qu0lxUJM71MoNI3kC91AXx8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\accurateworkspace\AccurateProject\src\test\resources" />
+      <recent name="F:\accurateworkspace\AccurateProject\src\test\java" />
+      <recent name="F:\accurateworkspace\AccurateProject\src\main\java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Feature: TC1-TC2-VerifyThatClientAbleToAccessKIOSK" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: 002a - verify user able to create new folder in Box">
+    <configuration name="Feature: 001-VerifyLoginPage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/001-VerifyLoginPage.feature" />
+      <option name="GLUE" value="com.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AccurateProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: 001-VerifyLoginPage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: TC1-TC2-VerifyThatClientAbleToAccessKIOSK" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TC1-TC2-VerifyThatClientAbleToAccessKIOSK.feature" />
+      <option name="GLUE" value="com.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AccurateProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: TC1-TC2-VerifyThatClientAbleToAccessKIOSK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 002 - verify user directly access box app login page (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/001-VerifyLoginPage.feature" />
+      <option name="GLUE" value="com.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AccurateProject" />
+      <option name="NAME_FILTER" value="^002 \- verify user directly access box app login page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^002 \- verify user directly access box app login page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 002 - verify user directly access box app login page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 002 - verify user directly access box app login page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/002-VerifyUserNavigationToLoginPage.feature" />
+      <option name="GLUE" value="com.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AccurateProject" />
+      <option name="NAME_FILTER" value="^002 \- verify user directly access box app login page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^002 \- verify user directly access box app login page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 002 - verify user directly access box app login page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 002a - verify user able to create new folder in Box" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/002-VerifyCreateNewFolder.feature" />
+      <option name="GLUE" value="com.stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AccurateProject" />
+      <option name="NAME_FILTER" value="^002a \- verify user able to create new folder in Box$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^002a \- verify user able to create new folder in Box$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 002a - verify user able to create new folder in Box" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="AccurateProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.executor" />
+      <option name="MAIN_CLASS_NAME" value="com.executor.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: 002a - verify user able to create new folder in Box" />
+        <item itemvalue="Cucumber java.Scenario: 002 - verify user directly access box app login page (1)" />
+        <item itemvalue="Cucumber java.Feature: 001-VerifyLoginPage" />
+        <item itemvalue="Cucumber java.Scenario: 002 - verify user directly access box app login page" />
+        <item itemvalue="Cucumber java.Feature: TC1-TC2-VerifyThatClientAbleToAccessKIOSK" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SliceToolwindowSettings">
+    <option name="autoScroll" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef820645-1fc4-4883-a096-8ae2314f0fca" name="Default Changelist" comment="" />
+      <created>1611923415829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611923415829</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="321" y="63" width="806" height="678" key="#Notifications" timestamp="1613570006145">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="321" y="63" width="806" height="678" key="#Notifications/0.0.1366.741@0.0.1366.741" timestamp="1613570006145" />
+    <state x="361" y="73" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1611999863819" />
+    <state x="278" y="33" width="806" height="678" key="#Project_Structure" timestamp="1613469472234">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="278" y="33" width="806" height="678" key="#Project_Structure/0.0.1366.741@0.0.1366.741" timestamp="1613469472234" />
+    <state x="391" y="42" width="579" height="659" key="#Scenario:_002_-_verify_user_directly_access_box_app_login_page" timestamp="1613646503729">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="391" y="42" width="579" height="659" key="#Scenario:_002_-_verify_user_directly_access_box_app_login_page/0.0.1366.741@0.0.1366.741" timestamp="1613646503729" />
+    <state x="260" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613557902457">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="260" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.741@0.0.1366.741" timestamp="1613557902457" />
+    <state x="354" y="167" width="693" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613571425722">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="332" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1612179799529" />
+    <state x="354" y="167" width="693" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.741@0.0.1366.741" timestamp="1613571425722" />
+    <state x="415" y="157" width="531" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1613557290751">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="415" y="157" width="531" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.741@0.0.1366.741" timestamp="1613557290751" />
+    <state x="328" y="275" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612291417748">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="328" y="275" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.689@0.0.1280.689" timestamp="1612291417748" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611996426075">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="416" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1611985890160" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611996426075" />
+    <state x="366" y="47" width="630" height="649" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1613646475799">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="366" y="47" width="630" height="649" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1366.741@0.0.1366.741" timestamp="1613646475799" />
+    <state x="406" y="253" width="550" height="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613391862557">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="406" y="253" width="550" height="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.741@0.0.1366.741" timestamp="1613391862557" />
+    <state x="97" y="99" width="1172" height="545" key="DiffContextDialog" timestamp="1613570575869">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="97" y="99" width="1172" height="545" key="DiffContextDialog/0.0.1366.741@0.0.1366.741" timestamp="1613570575869" />
+    <state x="488" y="153" width="430" height="485" key="FileChooserDialogImpl" timestamp="1613464826948">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="488" y="153" width="430" height="485" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1613464826948" />
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612163911242" />
+    <state width="1320" height="188" key="GridCell.Tab.0.bottom" timestamp="1613754745027">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1237" height="270" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1612266422295" />
+    <state width="1320" height="188" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1613754745027" />
+    <state width="1493" height="412" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612174111182" />
+    <state width="1320" height="188" key="GridCell.Tab.0.center" timestamp="1613754745026">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1237" height="270" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1612266422295" />
+    <state width="1320" height="188" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1613754745026" />
+    <state width="1493" height="412" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612174111182" />
+    <state width="1320" height="188" key="GridCell.Tab.0.left" timestamp="1613754745024">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1237" height="270" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1612266422295" />
+    <state width="1320" height="188" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1613754745024" />
+    <state width="1493" height="412" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612174111182" />
+    <state width="1320" height="188" key="GridCell.Tab.0.right" timestamp="1613754745026">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1237" height="270" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1612266422295" />
+    <state width="1320" height="188" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1613754745026" />
+    <state width="1493" height="412" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612174111182" />
+    <state width="1320" height="220" key="GridCell.Tab.1.bottom" timestamp="1613645957944">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1320" height="220" key="GridCell.Tab.1.bottom/0.0.1366.741@0.0.1366.741" timestamp="1613645957944" />
+    <state width="1320" height="220" key="GridCell.Tab.1.center" timestamp="1613645957943">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1320" height="220" key="GridCell.Tab.1.center/0.0.1366.741@0.0.1366.741" timestamp="1613645957943" />
+    <state width="1320" height="220" key="GridCell.Tab.1.left" timestamp="1613645957943">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1320" height="220" key="GridCell.Tab.1.left/0.0.1366.741@0.0.1366.741" timestamp="1613645957943" />
+    <state width="1320" height="220" key="GridCell.Tab.1.right" timestamp="1613645957944">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1320" height="220" key="GridCell.Tab.1.right/0.0.1366.741@0.0.1366.741" timestamp="1613645957944" />
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog" timestamp="1611941911976">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1611941911976" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1613646182723">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1366.741@0.0.1366.741" timestamp="1613646182723" />
+    <state x="248" y="10" width="992" height="731" key="SettingsEditor" timestamp="1613634065055">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="248" y="10" width="992" height="731" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1613634065055" />
+    <state x="279" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611934380425" />
+    <state x="97" y="99" width="1172" height="545" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613410063080">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="97" y="99" width="1172" height="545" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.741@0.0.1366.741" timestamp="1613410063080" />
+    <state x="425" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1614339912332">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="398" y="200" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1612263529572" />
+    <state x="425" y="215" key="com.intellij.ide.util.TipDialog/0.0.1366.741@0.0.1366.741" timestamp="1614339912332" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1612164262468" />
+    <state x="447" y="289" width="589" height="174" key="com.intellij.jarRepository.RepositoryAttachDialog-SEARCH" timestamp="1613456453913">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="447" y="289" width="589" height="174" key="com.intellij.jarRepository.RepositoryAttachDialog-SEARCH/0.0.1366.741@0.0.1366.741" timestamp="1613456453913" />
+    <state x="258" y="101" width="846" height="610" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1613645932069">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="258" y="101" width="846" height="610" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.741@0.0.1366.741" timestamp="1613645932069" />
+    <state x="473" y="46" width="590" height="732" key="find.popup" timestamp="1611934325427">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="473" y="46" width="590" height="732" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1611934325427" />
+    <state x="503" y="16" width="672" height="677" key="run.anything.popup" timestamp="1613646258578">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1612196097001" />
+    <state x="503" y="16" width="672" height="677" key="run.anything.popup/0.0.1366.741@0.0.1366.741" timestamp="1613646258578" />
+    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1613653062981">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="346" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1366.741@0.0.1366.741" timestamp="1613653062981" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AccurateProject$TestRunner.ic" NAME="TestRunner Coverage Results" MODIFIED="1613458541299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.executor.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AccurateProject$Scenario__Client_Able_To_Access_KIOSK.ic" NAME="Scenario: Client Able To Access KIOSK Coverage Results" MODIFIED="1611933549254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>

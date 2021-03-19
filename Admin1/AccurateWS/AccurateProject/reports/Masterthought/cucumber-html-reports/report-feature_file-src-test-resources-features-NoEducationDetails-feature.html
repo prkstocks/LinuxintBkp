@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Feature: Verify that user able to  select None   on education details/ employee details</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Box Project</td>
+              <td>1</td>
+            <td>31 Jan 2021, 17:45</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Feature Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">Verify that user able to  select None   on education details/ employee details</td>
+          <td      class="passed"    >18</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">18</td>
+
+          <td  class="passed"    >1</td>
+          <td >0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="158650000000">2:38.650</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+        
+<div class="tags indention">
+  </div>
+
+        
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">Verify that user able to  select None   on education details/ employee details</span>
+  
+
+  </div>
+
+        <div class="description indention"></div>
+
+        <div class="elements inner-level">
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">12.994</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">browser is &quot;chrome&quot;</span>
+  
+  <span class="lead-duration duration">6.802</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user navigates to the Accurate portal</span>
+  
+  <span class="lead-duration duration">6.192</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-3">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-3" class="collapse collapsable-details " >
+          
+          <pre><p>Navigated to https://hotfix-screen.accurate.com/auriconet/Customer/MainMenu.aspx</p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_noEduDetails.html">@noEduDetails</a>
+      </div>
+
+  
+  <span class="lead-duration duration">2:25.656</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Verify that user able to  select None   on education details/ employee details</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-4" class="collapse collapsable-details ">
+    
+  <div class="inner-level hooks-element-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-5">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-5" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">com.stepDefinition.CucumberHooks.beforeAll()</span>
+                        
+  <span class="lead-duration duration">0.004</span>
+
+          </div>
+
+                      
+
+          
+                    
+
+          
+  
+        </div>
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">com.stepDefinition.CucumberHooks.beforeEveryScenario(io.cucumber.java.Scenario)</span>
+                        
+  <span class="lead-duration duration">0.000</span>
+
+          </div>
+
+                      
+
+          
+                    
+
+          
+  
+        </div>
+          </div>
+  </div>
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-6">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-6" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user login to application with valid user details</span>
+  
+  <span class="lead-duration duration">14.805</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user navigates to Kiosk url</span>
+  
+  <span class="lead-duration duration">2.268</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user verifies Kiosk Order page</span>
+  
+  <span class="lead-duration duration">2.022</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-7">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-7" class="collapse collapsable-details " >
+          
+          <pre><p>Accurate Background -- Kiosk Electronic Release verified</p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user fills client code</span>
+  
+  <span class="lead-duration duration">0.503</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user fills the required details</span>
+  
+  <span class="lead-duration duration">2.222</span>
+
+  </div>
+
+        
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>Contact employer</td>
+                                  <td>Package Options</td>
+                              </tr>
+                          <tr>
+                                  <td>Yes</td>
+                                  <td>International</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user able to see Start Kiosk button</span>
+  
+  <span class="lead-duration duration">0.104</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-8">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-8" class="collapse collapsable-details " >
+          
+          <pre><p>&lt;color='red'&gt;User is successfully able to see Start Kiosk button&lt;/color&gt; </p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user clicks start Kiosk button</span>
+  
+  <span class="lead-duration duration">2.021</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks Open Kiosk Form button</span>
+  
+  <span class="lead-duration duration">5.021</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">verify background screening can be started</span>
+  
+  <span class="lead-duration duration">2.008</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-9">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-9" class="collapse collapsable-details " >
+          
+          <pre><p>Online Background Screening Release verified</p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user clicks on Background screening Start button</span>
+  
+  <span class="lead-duration duration">8.754</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the following list of pages should display within a release</span>
+  
+  <span class="lead-duration duration">36.878</span>
+
+  </div>
+
+        
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>Electronic Consent</td>
+                              </tr>
+                          <tr>
+                                  <td>Disclosure Regarding Background Investigation</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-10">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-10" class="collapse collapsable-details " >
+          
+          <pre><p>&lt;color='red'&gt;user is successfully 'able' to find Electronic Consent form&lt;/color&gt;</p><p>&lt;color='red'&gt;user is successfully 'able' to find Disclosure Regarding Background Investigation form&lt;/color&gt;</p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user verifies &quot;Personal Information&quot; column and fills data as below:</span>
+  
+  <span class="lead-duration duration">23.036</span>
+
+  </div>
+
+        
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>FirstName</td>
+                                  <td>MiddleName</td>
+                                  <td>LastName</td>
+                                  <td>CertifyName</td>
+                                  <td>DOB</td>
+                                  <td>Phone</td>
+                                  <td>Email</td>
+                                  <td>NoDrivingLicense</td>
+                                  <td>SSN</td>
+                                  <td>ConfirmSSN</td>
+                                  <td>Street</td>
+                                  <td>City</td>
+                                  <td>State</td>
+                                  <td>ZipCode</td>
+                                  <td>StartDate</td>
+                                  <td>AppliedState</td>
+                              </tr>
+                          <tr>
+                                  <td>QAMentor</td>
+                                  <td>QA</td>
+                                  <td>Coverage</td>
+                                  <td>Yes</td>
+                                  <td>02/02/1996</td>
+                                  <td>9982229992</td>
+                                  <td>support@qamentor.com</td>
+                                  <td>Yes</td>
+                                  <td>121 11 1111</td>
+                                  <td>121 11 1111</td>
+                                  <td>22Bakers</td>
+                                  <td>New York</td>
+                                  <td>New York</td>
+                                  <td>10018</td>
+                                  <td>02/2020</td>
+                                  <td>New York</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-11">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-11" class="collapse collapsable-details " >
+          
+          <pre><p>&lt;color='red'&gt;user is successfully 'able' to find Personal Information form&lt;/color&gt;</p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user verifies &quot;Criminal History&quot; column and checks No radio button:</span>
+  
+  <span class="lead-duration duration">8.062</span>
+
+  </div>
+
+        
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>CriminalHistory</td>
+                              </tr>
+                          <tr>
+                                  <td>No</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-12">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-12" class="collapse collapsable-details " >
+          
+          <pre><p>&lt;color='red'&gt;user is successfully 'able' to find Criminal History form&lt;/color&gt;</p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user verifies &quot;Employment History&quot; column and fills data as below:</span>
+  
+  <span class="lead-duration duration">20.640</span>
+
+  </div>
+
+        
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>CompanyName</td>
+                                  <td>StartDate</td>
+                                  <td>EndDate</td>
+                                  <td>Street</td>
+                                  <td>City</td>
+                                  <td>State</td>
+                                  <td>Zip</td>
+                                  <td>Phone</td>
+                                  <td>Supervisor</td>
+                                  <td>YourPosition</td>
+                                  <td>Wage</td>
+                                  <td>WageIncrement</td>
+                                  <td>RelatedToCurrEmployer</td>
+                                  <td>DotRegulatedEmp</td>
+                                  <td>DotSafety</td>
+                              </tr>
+                          <tr>
+                                  <td>Yahoo</td>
+                                  <td>01/2011</td>
+                                  <td>07/2015</td>
+                                  <td>22Bakers</td>
+                                  <td>New York</td>
+                                  <td>New York</td>
+                                  <td>10018</td>
+                                  <td>9998887766</td>
+                                  <td>Ruslan</td>
+                                  <td>QAEngineer</td>
+                                  <td>$2000</td>
+                                  <td>Semi-Monthly</td>
+                                  <td>No</td>
+                                  <td>Yes</td>
+                                  <td>Yes</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-13">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-13" class="collapse collapsable-details " >
+          
+          <pre><p>&lt;color='red'&gt;user is successfully 'able' to find Employment History form&lt;/color&gt;</p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user able to see Timeline gap and select as:</span>
+  
+  <span class="lead-duration duration">9.347</span>
+
+  </div>
+
+        
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>Relocation</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-14">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-14" class="collapse collapsable-details " >
+          
+          <pre><p>&lt;color='red'&gt;user is successfully 'able' to verify and select Timeline gap and select as: &lt;/color&gt;Relocation</p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user verifies &quot;Education History&quot; column and fills data as below:</span>
+  
+  <span class="lead-duration duration">7.965</span>
+
+  </div>
+
+        
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>NotGraduated</td>
+                              </tr>
+                          <tr>
+                                  <td>Yes</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+  <div class="outputs inner-level">
+          <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-15">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-15" class="collapse collapsable-details " >
+          
+          <pre><p>&lt;color='red'&gt;All editable fields are successfully disabled Education History form&lt;/color&gt;</p></pre>
+        </div>
+      </div>
+      </div>
+
+        
+  
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+  <div class="inner-level hooks-element-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-16">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-16" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">com.stepDefinition.CucumberHooks.executeAtEndOfScenario(io.cucumber.java.Scenario)</span>
+                        
+  <span class="lead-duration duration">0.037</span>
+
+          </div>
+
+                      
+
+          
+                    
+
+          
+  
+        </div>
+          </div>
+  </div>
+
+  </div>
+</div>
+
+                  </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

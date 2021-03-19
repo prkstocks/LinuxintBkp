@@ -1,0 +1,173 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23054000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "browser is \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 12
+                }
+              ],
+              "location": "com.stepDefinition.CucumberHooks.browser_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-19T10:38:07.017Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinition.CucumberHooks.beforeEveryScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinition.CucumberHooks.beforeAll()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "001- Verify that user able to launch Box Site",
+        "description": "",
+        "id": "001-verify-box-site-index-page;001--verify-that-user-able-to-launch-box-site",
+        "after": [
+          {
+            "result": {
+              "duration": 10776000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinition.CucumberHooks.executeAtEndOfScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Navigated to https://box.com"
+            ],
+            "result": {
+              "duration": 886000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user opens browser and navigates to box url",
+            "match": {
+              "location": "com.stepDefinition.VerifyUserCanMoveFolderOnBox.userOpensBoxSite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "https://www.box.com/en-gb/home verified",
+              "Box — Secure Cloud Content Management, Workflow, and Collaboration verified",
+              "[[ChromeDriver: chrome on LINUX (4686a7bbdce5c57825190e18982b1ea9)] -\u003e css selector: svg#Layer_1.logo-box] visible"
+            ],
+            "result": {
+              "duration": 13402000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verifies home page",
+            "match": {
+              "location": "com.stepDefinition.VerifyUserCanMoveFolderOnBox.verifyIndexScreen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1596000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user navigates to login screen",
+            "match": {
+              "location": "com.stepDefinition.VerifyUserCanMoveFolderOnBox.navigateToLoginScreen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5251000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter login credentials",
+            "match": {
+              "location": "com.stepDefinition.VerifyUserCanMoveFolderOnBox.enterLoginCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "[[ChromeDriver: chrome on LINUX (4686a7bbdce5c57825190e18982b1ea9)] -\u003e xpath: //h1[text()\u003d\u0027All Files\u0027]] visible",
+              "All Files | Powered by Box verified"
+            ],
+            "result": {
+              "duration": 10542000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user verifies the All files screen",
+            "match": {
+              "location": "com.stepDefinition.VerifyUserCanMoveFolderOnBox.verifyAllFilesPage()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@kioskstart"
+          },
+          {
+            "name": "@boxindexBox"
+          },
+          {
+            "name": "@boxall"
+          }
+        ]
+      }
+    ],
+    "name": "001-Verify Box Site Index Page",
+    "description": "",
+    "id": "001-verify-box-site-index-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/001-VerifyLoginPage.feature",
+    "tags": [
+      {
+        "name": "@kioskstart",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

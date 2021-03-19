@@ -1,0 +1,212 @@
+<html>
+<head><style type="text/css">h1 {background-color:#9999CC}
+h2 {background-color:#BBBBCC}
+h3 {background-color:#DDDDFF}
+th {border:1px solid black;background-color:#CCCCDD;}
+td{border:1px solid black;}
+table {border:1px solid black;border-collapse: collapse;}
+.chart {border:0px none black;border-collapse: collapse;background-color: none;}
+.passed {background-color:lightgreen;font-weight:bold;color:darkgreen}
+.skipped {background-color:silver;font-weight:bold;color:darkgray}
+.failed {background-color:tomato;font-weight:bold;color:darkred}
+.undefined {background-color:gold;font-weight:bold;color:goldenrod}
+.known {background-color:goldenrod;font-weight:bold;color:darkred}
+.passed_description {background-color:#D0FFD0;font-weight:bold;font-style:italic;color:black}
+.failed_description {background-color:#FFA898;font-weight:bold;font-style:italic;color:black}
+.comment {font-family:courier;font-weight:normal;font-size:small;color:black;border:1px dashed black;background-color:silver}
+.tip {font-family:courier;font-weight:normal;font-size:small;color:white;background-color:black}
+OL { counter-reset: item }
+OL>LI { display: block }
+OL>LI:before { content: counters(item, ".") " "; counter-increment: item }
+
+div.header {
+    display: block; text-align: center;
+    position: running(header);
+}
+div.footer {
+    display: block; text-align: center;
+    position: running(footer);
+}
+div.content {page-break-after: always;}
+@page {
+	 size: auto;
+     @top-center {
+     	content: "Detailed Results Report";
+	    color: silver;
+	    font-size: 14px;
+     }
+     @top-right {
+     	content: date("dd MMM, yyyy hh:mm");
+	    color: silver;
+	    font-size: 8px;
+     }
+    @bottom-right {
+    	content: "Page " counter(page) " of " counter(pages) ;
+	    color: silver;
+	    font-size: 8px;
+    }
+}
+</style>
+<title>Detailed Results Report</title>
+<meta charset="UTF-8" />
+</head>
+  <body>
+    <div class='header'></div>
+    <div class='footer'></div>
+<h1>Overview</h1>
+
+
+<table>
+	<tr><th></th><th>Passed</th><th>Failed</th><th>Known</th><th>Undefined</th><th>Total</th><th>%Passed</th></tr>
+	<tr><th>Features</th>
+		<td class="passed" id="features_passed">1</td>
+		<td class="failed" id="features_failed">0</td>
+		<td class="known" id="features_known">0</td>
+		<td class="undefined" id="features_undefined">0</td>
+		<td id="features_total">1</td>
+		<td id="features_rate">
+				100%
+		</td>
+	</tr>
+	<tr><th>Scenarios</th>
+		<td class="passed" id="scenarios_passed">1</td>
+		<td class="failed" id="scenarios_failed">0</td>
+		<td class="known" id="scenarios_known">0</td>
+		<td class="undefined" id="scenarios_undefined">0</td>
+		<td id="scenarios_total">1</td>
+		<td id="scenarios_rate">
+				100%
+		</td>
+	</tr>
+	<tr><th>Steps</th>
+		<td class="passed" id="steps_passed">6</td>
+		<td class="failed" id="steps_failed">0</td>
+		<td class="known" id="steps_known">0</td>
+		<td class="undefined" id="steps_undefined">0</td>
+		<td id="steps_total">6</td>
+		<td id="steps_rate">
+				100%
+		</td>
+	</tr>
+</table>
+<div><b>Overall Duration: 0h 01m 05s</b></div>
+
+<a id="top"></a><h1>Table of Contents</h1>
+
+<ol>
+<li> <span class="passed"><a href="#feature-6001-verify-box-site-index-page">001-Verify Box Site Index Page</a></span>
+	<ol>
+        <li> <span class="passed"><a href="#sc-12-001-verify-box-site-index-page;001--verify-that-user-able-to-launch-box-site">001- Verify that user able to launch Box Site</a></span></li>
+    </ol></li>
+</ol>
+
+<h1>Detailed Results Report</h1>
+
+<table width="700px">
+	<tr class="passed"><td colspan="4"><b>Feature:</b> <a id="feature-6001-verify-box-site-index-page">001-Verify Box Site Index Page</a></td></tr>
+    <tr class="passed">
+    	<td><small><b>Passed:</b> 1</small></td>
+        <td><small><b>Failed:</b> 0</small></td>
+        <td><small><b>Undefined:</b> 0</small></td>
+        <td><small>Duration: 65.51s</small></td>
+    </tr>
+	<tr class="passed">
+		<td colspan="4" style="padding-left:20px">
+		<table width="100%">
+				<tr class="passed">
+					<td colspan="4">
+						<b>Scenario:</b> <a id="sc-12-001-verify-box-site-index-page;001--verify-that-user-able-to-launch-box-site">001- Verify that user able to launch Box Site</a>
+					</td>
+				</tr>
+                <tr class="passed">
+                	<td><small><b>Passed:</b> 6</small></td>
+                	<td><small><b>Failed:</b> 0</small></td>
+					<td><small><b>Undefined:</b> 0</small></td>
+					<td><small>Duration: 65.51s</small></td>
+				</tr>
+					<tr class="passed">
+						<td>Before</td>
+						<td colspan="2"></td>
+						<td width="100">0.00s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+                		</td>
+                	</tr>
+                <tr class="passed">
+	                <td colspan="4" style="padding-left:20px">
+						<table width="100%">
+                            	<tr class="passed">
+                            		<td><b>Given </b> browser is &quot;chrome&quot;</td>
+                            		<td width="100">23.05s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user opens browser and navigates to box url</td>
+                            		<td width="100">0.89s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+Navigated to https://box.com
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> user verifies home page</td>
+                            		<td width="100">13.40s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+https://www.box.com/en-gb/home verified
+Box — Secure Cloud Content Management, Workflow, and Collaboration verified
+[[ChromeDriver: chrome on LINUX (4686a7bbdce5c57825190e18982b1ea9)] -&gt; css selector: svg#Layer_1.logo-box] visible
+											</br>
+											</pre>
+										</td>
+									</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user navigates to login screen</td>
+                            		<td width="100">1.60s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> user enter login credentials</td>
+                            		<td width="100">5.25s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> user verifies the All files screen</td>
+                            		<td width="100">10.54s</td>
+                        		</tr>
+									<tr class="passed">
+										<td colspan="2" class="comment">
+											<span class="tip">Output</span>
+											<pre class="comment"><br>
+[[ChromeDriver: chrome on LINUX (4686a7bbdce5c57825190e18982b1ea9)] -&gt; xpath: //h1[text()=&#39;All Files&#39;]] visible
+All Files | Powered by Box verified
+											</br>
+											</pre>
+										</td>
+									</tr>
+						</table>
+					</td>
+				</tr>
+				
+					<tr class="passed">
+						<td>After</td>
+						<td colspan="2"></td>
+						<td width="100">10.78s</td>
+					</tr>
+                	<tr class="passed">
+                		<td colspan="4">
+						</td>
+                	</tr>
+                <tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr>
+		</table>
+	</td></tr><tr><td colspan="5"></td></tr>
+</table>
+
+	</body>
+</html>
