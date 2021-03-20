@@ -1,0 +1,45 @@
+Git - Version Control System(VCS) Tracking versions of files. 
+GitHub - is a webportal and cloud service for your git repositories 
+
+Download and install Git on Windows:
+===================================
+1 Download git from https://git-scm.com/download/win
+2 Install git == C:\Program Files\Git
+3 verify git from cmd === git --version
+
+Getting Access to Accurate Project repositories:
+================================================
+GitHub private repository is not visible to your github account. To enable the access, You need to add SSH key from your computer to github account for giving read/write access to your github repository.
+
+Navigate to your local folder on CMD where you want to setup your workspace.
+Clone the Repository in your local : - git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+Steps for giving read/write access:
+-----------------------------------
+    1. Go to your Account Settings in GitHub from top right corner of the screen.
+    2. On the Account Settings page, select SSH & GPG Keys
+    3. Under SSH Keys, open the guide for generating SSH key.
+    4. Open Git Bash and run command: ssh-keygen -t rsa -b 4096 -C <YOUR EMAIL id>  eg. ssh-keygen -t rsa -b 4096 -C xyz@testing.com
+            This creates a new ssh key, using the provided email as a label. When prompted to "Enter a file in which to save the key," press “Enter”. 
+            This accepts the default file location. 
+    5. Again press “Enter” when asked to “Enter passphrase”. Your SSH key will be generated.
+    6. Now add  your SSH private key to the ssh-agent. For this run two commands on Git Bash one by one:
+            eval $(ssh-agent -s) 
+            ssh-add ~/.ssh/id_rsa
+    7. Copy the contents of the id_rsa.pub file to your clipboard by running command in Git Bash:  clip < ~/.ssh/id_rsa.pub 
+    8. Now go to your GitHub account settings, under SSH & GPG Keys, add new SSH key and enter clipboard contents and give unique name to the key.
+    9. Now go to your repository on GitHub and copy the SSH url.
+
+Working with GitHub:
+===================
+To koow the github version      - git --version
+To create your own branch       -  git checkout -b <New Branch Name>   eg.git checkout -b TestAccurateBranch
+To Checkout a existing Branch   -  git checkout <Your Branch Name>   eg.git checkout TestAccurateBranch
+To check git status             -  git status   
+To add the new/changes to stage -  git add <file name> 
+                eg.     git add src/test/resources/features/TC1-TC2-VerifyXyz.feature
+                        git add .gitignore
+To commit the new/changes to branch     - git commit -m "<message>"
+To push the committed code in to branch - git push
+To merge the code to another(developer) branch First checkout the developer branch and execute the following command:  - git merge <Your Branch Name>
+                eg. git merge TestAccurateBranch

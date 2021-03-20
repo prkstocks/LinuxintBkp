@@ -1,0 +1,13 @@
+17-Mar-21 06:00PM:
+==================
+    1. Add the details in the team data sheet and can get the common accesses in URLs sheet
+    2. Confirm whether the team can access all AWS, Jira, GitHub, Slack and Portals(Phoenix, Client-1pass& 2pass, ATM portal and Candidate)
+    3. Try the recent links shared by Karthik 
+    4. Check whether everyone can understand and navigate/perform actions on the application flow.
+    5. For any question/clarification to the client here after use accel-platform channel on Slack...
+    6. No questions from anyone, as of now...
+    
+18-Mar-21 Task for the day:
+===========================   
+    
+

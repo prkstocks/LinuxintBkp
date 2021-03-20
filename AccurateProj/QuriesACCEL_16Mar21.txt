@@ -1,0 +1,7 @@
+Queries to ACCEL:
+
+1. Need clarification on JIRA project access.
+2. GitHub access and Project, branch details required to clone the code.
+3. Need URL and login credentials to access the ACCEL application
+4. A walkthrough is required to interpret the testcase formats and design. 
+5. I understand that some area hits the real-time data like email, contact no., SSN, etc., will it be a problem? is there any data set for testing purpose?
